@@ -48,4 +48,4 @@ goto :eof
 :error  
 echo Incorrect number of arguments  
 echo "Usage: silentInstall.bat <path to exe> <path to Tableau Server bin> <license key> <path to registration.json file>
-echo "Example:" silentInstall.bat C:\install\TableauServer-64bit-10-1-1.exe "C:\Program Files\Tableau\Tableau Server\10.1\bin" <LICENSE KEY> C:\install\registration.json
+echo "Example:" silentInstall.bat C:\install\TableauServer-64bit-10-1-1.exe "C:\Program Files\Tableau\Tableau Server\10.1\bin" XXXX-XXXX-XXXX-XXXX-XXXX C:\install\registration.json
